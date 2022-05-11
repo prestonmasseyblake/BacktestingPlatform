@@ -21,8 +21,23 @@
 	<body  style="background-color: #131428; " class="leading-normal tracking-normal">
     
   <div class="container p-4"> 
-  <div class="flex justify-between">
-    <div class="flex ">
+  <div class="flex justify-between ">
+<div> 
+  <a href="/">
+  <button  class=" hover:bg-blue-700 bg-white text-black font-bold  px-8 py-4 rounded">
+
+    <svg width="24" height="24" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>
+    
+  </button>
+</a>
+</div>
+<div> 
+  <button type="submit" class=" hover:bg-blue-700 bg-white text-black font-bold  px-8 py-4 rounded" onclick="toggleModal('modal-id')">
+    Upload Script
+  </button>
+</div>
+</div>
+<div class="flex ">
     <img class="ml-8 " style="width:50px; height:50px;" src="{% static 'images/stocks/' %}{{stock.logo}}" />
   <div class="ml-8">
   <h1 class="text-white text-5xl">{{stock.companyName}} </h1>
@@ -30,15 +45,7 @@
   <h1 class="text-white text-5xl">${{stock.mostRecentPrice}}</h1>
   </div>
 </div>
-<div> 
-  <button type="submit" class=" hover:bg-blue-700 bg-white text-black font-bold  px-8 py-4 rounded" onclick="toggleModal('modal-id')">
-    Upload Script
-  </button>
-  
-  
-  
-</div>
-</div>
+
 <div  class="flex flex-col justify-center ">
   
 
@@ -94,7 +101,7 @@
         <div class="m-3">
           <h2 class="text-lg mb-2 text-black">{{script.title}}
          <span class="text-sm text-teal-800 font-mono bg-teal-100 inline rounded-full px-2 align-top float-right animate-pulse">Tag</span></h2>
-        <p class="font-light font-mono text-sm text-gray-700 hover:text-gray-900 transition-all duration-200">{{script.code}}</p>
+        <p class="font-light font-mono text-sm text-gray-700 hover:text-gray-900 transition-all duration-200">{{script.snippet}}</p>
         </div>
       </div>
     </a>
@@ -150,8 +157,8 @@
           
          
       const margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    width = 1000 - margin.left - margin.right,
+    height = 600 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 const svg = d3.select("#my_dataviz")
