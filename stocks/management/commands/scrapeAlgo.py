@@ -269,6 +269,10 @@ stockList = [
         "ticker": "HLT",
         "logo": "hilton.png"
     },
+    {
+    "companyName": "Robinhood",
+    "ticker": "HOOD"
+},
 ]
 
 class Command(BaseCommand):
