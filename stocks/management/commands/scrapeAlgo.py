@@ -271,7 +271,216 @@ stockList = [
     },
     {
     "companyName": "Robinhood",
-    "ticker": "HOOD"
+    "ticker": "HOOD",
+    "logo": "robinhood.png"
+    },
+{
+    "companyName": "Johnson & Johnson",
+    "ticker": "JNJ",
+    "logo": "JNJ.png"
+},    {
+    "companyName": "Walmart",
+    "ticker": "WMT",
+    "logo": "WMT.png"
+},    {
+    "companyName": "Visa",
+    "ticker": "V",
+    "logo": "V.png"
+},    {
+    "companyName": "Exxon Mobil",
+    "ticker": "XOM",
+    "logo": "XOM.png"
+},    {
+    "companyName": "Procter & Gamble",
+    "ticker": "PG",
+    "logo": "PG.png"
+},    {
+    "companyName": "Mastercard",
+    "ticker": "MA",
+    "logo": "MA.png"
+},    {
+    "companyName": "Bank of America",
+    "ticker": "BAC",
+    "logo": "BAC.png"
+},    {
+    "companyName": "Home Depot",
+    "ticker": "HD",
+    "logo": "HD.png"
+},    {
+    "companyName": "Pfizer",
+    "ticker": "PFE",
+    "logo": "PFE.png"
+},    {
+    "companyName": "AbbVie",
+    "ticker": "ABBV",
+    "logo": "ABBV.png"
+},    {
+    "companyName": "Toyota Motor",
+    "ticker": "TM",
+    "logo": "TM.png"
+},    {
+    "companyName": "Alibaba Group",
+    "ticker": "BABA",
+    "logo": "BABA.png"
+},    {
+    "companyName": "McDonald's",
+    "ticker": "MCD",
+    "logo": "MCD.png"
+},    {
+    "companyName": "Nike",
+    "ticker": "NKE",
+    "logo": "NKE.png"
+},    {
+    "companyName": "Philip Morris",
+    "ticker": "PM",
+    "logo": "PM.png"
+},    {
+    "companyName": "Wells Fargo",
+    "ticker": "WFC",
+    "logo": "WFC.png"
+},    {
+    "companyName": "United Parcel Service",
+    "ticker": "UPS",
+    "logo": "UPS.png"
+},    {
+    "companyName": "T-Mobile",
+    "ticker": "TMUS",
+    "logo": "TMUS.png"
+},    {
+    "companyName": "Texas Instruments",
+    "ticker": "TXN",
+    "logo": "TXN.png"
+},    {
+    "companyName": "Morgan Stanley",
+    "ticker": "MS",
+    "logo": "MS.png"
+},    {
+    "companyName": "CVS Health",
+    "ticker": "CVS",
+    "logo": "CVS.png"
+},    {
+    "companyName": "Lowe's Companies",
+    "ticker": "LOW",
+    "logo": "LOW.png"
+},    {
+    "companyName": "Charles Schwab Corporation",
+    "ticker": "SCHW",
+    "logo": "SCHW.png"
+},    {
+    "companyName": "International Business Machines",
+    "ticker": "IBM",
+    "logo": "IBM.png"
+},    {
+    "companyName": "Lockheed Martin",
+    "ticker": "LMT",
+    "logo": "LMT.png"
+},    {
+    "companyName": "American Express Company",
+    "ticker": "AXP",
+    "logo": "AXP.png"
+},
+    {
+    "companyName": "Deere & Company",
+    "ticker": "DE",
+    "logo": "DE.png"
+},    {
+    "companyName": "Catepillar",
+    "ticker": "CAT",
+    "logo": "CAT.png"
+},    {
+    "companyName": "Sony Group Corporation",
+    "ticker": "SONY",
+    "logo": "SONY.png"
+},    {
+    "companyName": "Goldman Sachs Group",
+    "ticker": "GS",
+    "logo": "GS.png"
+},    {
+    "companyName": "Target",
+    "ticker": "TGT",
+    "logo": "TGT.png"
+},    {
+    "companyName": "CitiGroup",
+    "ticker": "C",
+    "logo": "C.png"
+},    {
+    "companyName": "3M company",
+    "ticker": "MMM",
+    "logo": "MMM.png"
+},    {
+    "companyName": "Estee Lauder Companies",
+    "ticker": "EL",
+    "logo": "EL.png"
+},    {
+    "companyName": "General Electric Company",
+    "ticker": "GE",
+    "logo": "GE.png"
+},    {
+    "companyName": "Starbucks Corporation",
+    "ticker": "SBUX",
+    "logo": "SBUX.png"
+},    {
+    "companyName": "Sherwin-Williams",
+    "ticker": "SHW",
+    "logo": "SHW.png"
+},    {
+    "companyName": "Airbnb",
+    "ticker": "ABNB",
+    "logo": "ABNB.png"
+},    {
+    "companyName": "Waste Management",
+    "ticker": "WM",
+    "logo": "WM.png"
+},
+{
+    "companyName": "Fidelity National Information Services",
+    "ticker": "FIS",
+    "logo": "FIS.png"
+},
+{
+    "companyName": "MetLife",
+    "ticker": "MET",
+    "logo": "MET.png"
+},
+{
+    "companyName": "The Hershey Company",
+    "ticker": "HSY",
+    "logo": "HSY.png"
+},
+{
+    "companyName": "Uber",
+    "ticker": "UBER",
+    "logo": "UBER.png"
+},
+{
+    "companyName": "Twitter",
+    "ticker": "TWTR",
+    "logo": "TWTR.png"
+},
+{
+    "companyName": "Honda Motor",
+    "ticker": "HMC",
+    "logo": "HMC.png"
+},
+{
+    "companyName": "Sysco Corporation",
+    "ticker": "SYY",
+    "logo": "SYY.png"
+},
+{
+    "companyName": "Warner Bros. Discovery",
+    "ticker": "WBD",
+    "logo": "WBD.png"
+},
+{
+    "companyName": "Kroger Company",
+    "ticker": "KR",
+    "logo": "KR.png"
+},
+{
+    "companyName": "HP Inc",
+    "ticker": "HP",
+    "logo": "HP.png"
 },
 ]
 
